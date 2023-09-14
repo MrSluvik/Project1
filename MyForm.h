@@ -64,7 +64,9 @@ namespace Project1 {
 			// textBox1
 			// 
 			this->textBox1->Location = System::Drawing::Point(86, 12);
+			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
+			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
 			this->textBox1->Size = System::Drawing::Size(120, 20);
 			this->textBox1->TabIndex = 0;
 			// 
@@ -72,12 +74,11 @@ namespace Project1 {
 			// 
 			this->label1->AutoSize = true;
 			this->label1->Location = System::Drawing::Point(124, 53);
-			this->label1->MaximumSize = System::Drawing::Size(50, 30);
+			this->label1->MaximumSize = System::Drawing::Size(100, 100);
 			this->label1->MinimumSize = System::Drawing::Size(40, 20);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(40, 20);
 			this->label1->TabIndex = 1;
-			this->label1->Text = L"label1";
 			// 
 			// button1
 			// 
@@ -124,8 +125,6 @@ namespace Project1 {
 		this->BackColor = System::Drawing::Color::Moccasin;
 		
 	}	
-	
-
 
 };
 }
