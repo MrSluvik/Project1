@@ -120,9 +120,8 @@ namespace Project1 {
 	public: System::Void MyForm_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		this->label1->Text = "Початок роботи";
-		this->textBox1->Text="";	
-		
-		this->BackColor = System::Drawing::Color::
+		this->textBox1->Text="";			
+		this->BackColor = System::Drawing::Color::Moccasin;
 		
 	}	
 	
